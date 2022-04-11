@@ -1,0 +1,112 @@
+body{
+    background-image: url('pexels-scott-webb-593158.jpg');
+    object-fit: fill;
+    font-family: sans-serif;
+}
+.grande{
+    width: 85%;
+    margin: 0 auto;
+}
+#topo{
+    background-color: rgba(50, 50, 50, 0.8);
+    border-radius: 4px;
+    padding: 10px;
+    position: sticky;
+    top: 0.5vw;
+
+}
+.titulo{
+    display: inline-block;
+}
+.title{
+    color: black;
+    text-decoration: inherit;
+    font-size:xx-large;
+}
+.barra{
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+.title:hover{
+    color: #252525;
+}
+h1{
+    text-align: center;
+}
+h3{
+    padding: 5px;
+}
+.corpo{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas: "lt ct rt";
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+
+}
+.lf{
+    grid-area: lt;
+    text-align: left;
+    padding-left: 5px;
+}
+.ct{
+    grid-area: ct;
+    text-align: center;
+}
+.rt{
+    grid-area: rt;
+    text-align: center;
+
+}
+.rt > a{
+    font-size: medium;
+}
+.rt > a:hover{
+    color: darkblue;
+}
+.barra > a{
+    background-color: gray;
+    font-size:large;
+    border-radius: 5%;
+    margin-left: 5px;
+    padding: 3px;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas: "link texto";
+}
+.infoPrj{
+    grid-area: link;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    padding-left: 10px;
+    text-align: left;
+
+}
+.textoProjetos{
+    background-color: rgba(224, 224, 224, 0.7);
+    border-radius: 4px;
+    grid-area: texto;
+    padding-left: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: x-large;
+    color: blue;
+}
+a:hover{
+    color: greenyellow;
+}
+
+li{
+    margin-bottom: 0.7rem;
+}

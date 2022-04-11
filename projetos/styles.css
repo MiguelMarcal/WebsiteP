@@ -1,0 +1,50 @@
+body{
+    background-image: url('../styles/pexels-scott-webb-593158.jpg');
+    background-position: center;
+    object-fit: cover;
+    font-family: sans-serif;
+}
+.wraper{
+    width: 85%;
+    margin: 0 auto;
+}
+.titulo > a{
+    color: black;
+    text-decoration: inherit;
+    font-size:xx-large;
+}
+.lista{
+    width: auto;
+}
+h1{
+    text-align: center;
+}
+hr{
+    width: auto;
+}
+.barra > a{
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    padding: 10px;
+    text-decoration: inherit;
+    width: auto;
+}
+.barra > a:hover{
+    background-color: lightgrey;
+}
+
+.barra{
+    display: inline-block;
+    background-color: rgba(50, 50, 50, 0.8);
+    width: 100%;
+    padding: 13px 0px;
+}
+ul {
+    background-color: white;
+    padding: 30px;
+    line-height: 2em;
+    
+}
+
+
