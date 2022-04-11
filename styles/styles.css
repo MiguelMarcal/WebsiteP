@@ -44,7 +44,6 @@ h3{
     grid-template-areas: "lt ct rt";
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 4px;
-
 }
 .lf{
     grid-area: lt;
@@ -80,21 +79,30 @@ h3{
     grid-auto-columns: 1fr;
     grid-template-areas: "link texto";
 }
-.infoPrj{
+.infoTitulo{
     grid-area: link;
     background-color: rgba(128, 128, 128, 0.7);
     border-radius: 4px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 10px;
-    padding-left: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 15px;
+    padding: 40px;
     text-align: left;
-
+}
+.infoTitulo > p{
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
 }
 .textoProjetos{
     background-color: rgba(224, 224, 224, 0.7);
     border-radius: 4px;
     grid-area: texto;
     padding-left: 10px;
+}
+.textoextrecurriculares{
+    grid-area: texto;
+    margin: 0;
+    padding: 0.2em;
 }
 
 a {
@@ -106,7 +114,24 @@ a {
 a:hover{
     color: greenyellow;
 }
-
 li{
     margin-bottom: 0.7rem;
 }
+ul {
+    padding: 30px;
+    line-height: 1em;
+}
+.Mprojetos{
+    width: auto;
+    background-color: white;
+}
+.codigo{
+    background-color: gray;
+    padding: 20px;
+}
+pre code {
+    background-color: #eee;
+    border: 2px solid black;
+    display: block;
+    padding: 20px;
+  }
