@@ -1,7 +1,3 @@
-/*
-Miguel Silva Marçal                           a46066 PL4
-Rui Filipe Vasconcelos da Silva Soares        a46022 PL3
-*/
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
