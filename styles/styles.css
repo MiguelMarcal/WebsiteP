@@ -7,12 +7,15 @@ body{
 .grande{
     margin: 0 auto;
 }
-#topo{
-    background-color: rgba(50, 50, 50, 0.8);
-    border-radius: 4px;
-    padding: 10px;
-    position: sticky;
-    top: 0.5vw;
+#CVimage{
+    background-image: url('pfp.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 20vw;
+    width: auto;
+    text-align: right;
+    padding-right: 30%;
 }
 .titulo{
     display: inline-block;
@@ -23,12 +26,6 @@ body{
     font-size:xx-large;
     padding: 5px;
 }
-.barra{
-    display: inline-block;
-    height: fit-content;
-    width: fit-content;
-    padding-top: 5px;
-}
 .title:hover{
     color: #252525;
 }
@@ -37,35 +34,6 @@ h1{
 }
 h3{
     padding: 5px;
-}
-.corpo{
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-areas: "lt ct rt";
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 4px;
-}
-.lf{
-    grid-area: lt;
-    text-align: left;
-    padding-left: 5px;
-}
-.ct{
-    grid-area: ct;
-    text-align: center;
-}
-.rt{
-    grid-area: rt;
-    text-align: center;
-
-}
-
-.barra > a{
-    background-color: rgb(255, 255, 255);
-    font-size:large;
-    color: black;
-    border-radius: 5%;
-    padding: 3px;
 }
 .container{
     background-color: rgba(255, 255, 255, 0.7);
