@@ -143,17 +143,20 @@ strong{
 
 .navbar-links li {
     list-style: none;
+    margin: 0 .1vw;
+
 }
 
 .navbar-links li a {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: .5vw;
 }
 
 .navbar-links li:hover {
     background-color: #555;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 600px){
