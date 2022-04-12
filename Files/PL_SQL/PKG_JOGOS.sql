@@ -1,10 +1,3 @@
---ETAPA 4 DO PROJETO DE SIBD 2021/2022 GRUPO38
---André Carreira fc53501 TP16
---Marcos Gonçalves fc56946 TP16
---Miguel Marçal fc57542 TP16
---Rogério Silva fc49554 TP16
--- A bd bloqueou muito em cima da hora de entrega entao nao conseguimos testar o script...
-
 VARIABLE lista REFCURSOR;
 
 BEGIN 
