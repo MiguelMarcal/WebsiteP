@@ -97,6 +97,9 @@ strong{
     grid-template-areas: "lt rt";
     grid-auto-columns: 1fr;
 }
+.listaskils > ul{
+    padding: 20px;
+}
 .listaskils > .ullt{
     grid-area: lt;
 }
