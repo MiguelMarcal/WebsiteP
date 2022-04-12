@@ -17,14 +17,15 @@ body{
     text-align: right;
     padding-right: 30%;
 }
-.title{
+.titleMainMenu{
     color: black;
     text-decoration: inherit;
     font-size:xx-large;
     padding: 5px;
 }
-.title:hover{
-    color: #252525;
+.titleMainMenu:hover{
+    background-color: #555;
+    border-radius: 5px;
 }
 h1{
     text-align: center;
