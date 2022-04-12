@@ -1,9 +1,3 @@
---ETAPA 4 DO PROJETO DE SIBD 2021/2022 GRUPO38
---André Carreira fc53501 TP16
---Marcos Gonçalves fc56946 TP16
---Miguel Marçal fc57542 TP16
---Rogério Silva fc49554 TP16
-
 ---------Excecoes---------
 --VAL_NEG
 --GEN_INV
@@ -30,7 +24,7 @@ CURSOR numero_max IS SELECT MAX(numero) as maxN FROM atleta;                -- C
 n_max numero_max%ROWTYPE;
 n_out atleta.numero%TYPE;
 VAL_NEG EXCEPTION;                                                          -- Excepcao para quando algum valor e negativo
-GEN_INV EXCEPTION;                                                          -- Excepcao para quando o genero dado nao é igual a m f M F
+GEN_INV EXCEPTION;                                                          -- Excepcao para quando o genero dado nao Ã© igual a m f M F
 BEGIN
 IF(nascimento_in <= 0 OR peso_in <= 0) THEN                                 -- Caso algum valor seja negativo levantamos um erro
     RAISE VAL_NEG;
