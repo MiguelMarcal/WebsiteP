@@ -2,6 +2,7 @@ body{
     background-image: url('pexels-scott-webb-593158.jpg');
     object-fit: fill;
     font-family: sans-serif;
+    margin-top: 0.5vw;
 }
 .grande{
     width: 85%;
@@ -59,15 +60,11 @@ h3{
     text-align: center;
 
 }
-.rt > a{
-    font-size: medium;
-}
-.rt > a:hover{
-    color: darkblue;
-}
+
 .barra > a{
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     font-size:large;
+    color: black;
     border-radius: 5%;
     margin-left: 5px;
     padding: 3px;
@@ -85,34 +82,38 @@ h3{
     border-radius: 4px;
     border-bottom-right-radius: 0;
     border-top-right-radius: 15px;
-    padding: 40px;
+    padding: 20px;
     text-align: left;
+}
+.infoTitulo > a{
+    font-size: x-large;
 }
 .infoTitulo > p{
     font-size: x-large;
     margin: 0;
     padding: 0;
 }
-.textoProjetos{
-    background-color: rgba(224, 224, 224, 0.7);
-    border-radius: 4px;
-    grid-area: texto;
-    padding-left: 10px;
-}
-.textoextrecurriculares{
+.textoProjetos, .textoextracurriculares {
     grid-area: texto;
     margin: 0;
-    padding: 0.2em;
+    padding: 10px;
+}
+.textoProjetos > p{
+    margin: 10px 0px;
+}
+.textoextracurriculares > ul{
+    margin: 0;
+    padding: 10px;
 }
 
 a {
     color: inherit;
     text-decoration: inherit;
-    font-size: x-large;
+    font-size: medium;
     color: blue;
 }
 a:hover{
-    color: greenyellow;
+    color: red;
 }
 li{
     margin-bottom: 0.7rem;
@@ -121,17 +122,16 @@ ul {
     padding: 30px;
     line-height: 1em;
 }
-.Mprojetos{
+.introPagina{
     width: auto;
     background-color: white;
+    padding: 15px;
 }
-.codigo{
+.texto{
     background-color: gray;
     padding: 20px;
 }
-pre code {
-    background-color: #eee;
-    border: 2px solid black;
-    display: block;
-    padding: 20px;
-  }
+
+strong{
+    line-height: 2rem;
+}
