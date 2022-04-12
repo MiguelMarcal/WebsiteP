@@ -1,28 +1,3 @@
--- ETAPA 2 DO PROJETO DE SIBD 2021/2022 GRUPO38
---André Carreira fc53501 TP16
---Marcos Gonçalves fc56946 TP16
---Miguel Marçal fc57542 TP16
---Rogério Silva fc49554 TP16
-/*
---RIA's cumpridas:  
-    RIA-1
-    RIA-4
-    RIA-11
-    RIA-12
-
---RIA's não cumpridas:
-    RIA-2
-    RIA-3
-    RIA-5
-    RIA-6
-    RIA-7
-    RIA-9
-    RIA-10 : Continente e Cidade out of ambit
-    RIA-13?
-    RIA-14
-    RIA-15
-    
-*/
 -----------------------------------------------------------
 
 
