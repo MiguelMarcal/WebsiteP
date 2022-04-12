@@ -17,9 +17,6 @@ body{
     text-align: right;
     padding-right: 30%;
 }
-.titulo{
-    display: inline-block;
-}
 .title{
     color: black;
     text-decoration: inherit;
@@ -54,27 +51,23 @@ h3{
     padding: 20px;
     text-align: left;
 }
-.infoTitulo > a{
-    font-size: x-large;
-}
 .infoTitulo > p{
     font-size: x-large;
     margin: 0;
     padding: 0;
 }
-.textoProjetos, .textoextracurriculares {
+.infoTexto, .textoextracurriculares {
     grid-area: texto;
     margin: 0;
     padding: 10px;
 }
-.textoProjetos > p{
+.infoTexto > p{
     margin: 10px 0px;
 }
 .textoextracurriculares > ul{
     margin: 0;
     padding: 15px;
 }
-
 a {
     color: inherit;
     text-decoration: inherit;
@@ -96,11 +89,6 @@ ul {
     background-color: white;
     padding: 15px;
 }
-.texto{
-    background-color: gray;
-    padding: 20px;
-}
-
 strong{
     line-height: 2rem;
 }
@@ -125,18 +113,6 @@ strong{
 .resto > ul{
     padding-top: 0;
 }
-
-@media only screen and (max-width: 600px){
-    .container{
-    grid-template-areas: "link"
-                         "texto";
-    border-top-right-radius: 10px;
-    }
-}
-
-
-
-
 .navbar {
     display: flex;
     flex-direction: column;
@@ -177,20 +153,10 @@ strong{
     background-color: #555;
 }
 
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
+@media only screen and (max-width: 600px){
+    .container{
+    grid-template-areas: "link"
+                         "texto";
+    border-top-right-radius: 10px;
+    }
 }
