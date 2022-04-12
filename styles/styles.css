@@ -5,7 +5,6 @@ body{
     margin-top: 0.5vw;
 }
 .grande{
-    width: 85%;
     margin: 0 auto;
 }
 #topo{
@@ -163,7 +162,7 @@ strong{
     .container{
     grid-template-areas: "link"
                          "texto";
-
+    border-top-right-radius: 10px;
     }
 }
 
