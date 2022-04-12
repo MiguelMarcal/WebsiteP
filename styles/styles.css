@@ -14,7 +14,6 @@ body{
     padding: 10px;
     position: sticky;
     top: 0.5vw;
-
 }
 .titulo{
     display: inline-block;
@@ -71,17 +70,24 @@ h3{
 }
 .container{
     background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 4px;
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     display: grid;
     grid-auto-columns: 1fr;
     grid-template-areas: "link texto";
+}
+resto{
+    grid-row-start: link;
+    grid-row-end: texto;
 }
 .infoTitulo{
     grid-area: link;
     background-color: rgba(128, 128, 128, 0.7);
     border-radius: 4px;
     border-bottom-right-radius: 0;
-    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
     padding: 20px;
     text-align: left;
 }
@@ -145,4 +151,14 @@ strong{
 }
 .listaskils > .ulrt{
     grid-area: rt;
+}
+.resto{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+.resto > p{
+    margin: 0;
+}
+.resto > ul{
+    padding-top: 0;
 }
