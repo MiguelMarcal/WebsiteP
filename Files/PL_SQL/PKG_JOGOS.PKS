@@ -1,10 +1,3 @@
---ETAPA 4 DO PROJETO DE SIBD 2021/2022 GRUPO38
---André Carreira fc53501 TP16
---Marcos Gonçalves fc56946 TP16
---Miguel Marçal fc57542 TP16
---Rogério Silva fc49554 TP16
-
-
 create or replace PACKAGE PKG_jogos IS
 
 
@@ -17,7 +10,7 @@ PROCEDURE regista_atleta(
     pais_in IN atleta.pais%TYPE);
 
 
--- Cria um novo registro de edição              PERGUNTA 2      
+-- Cria um novo registro de ediÃ§Ã£o              PERGUNTA 2      
 PROCEDURE regista_edicao(
 	edicao_in	IN jogos.edicao%TYPE,
 	ano_in		IN jogos.ano%TYPE,
@@ -33,7 +26,7 @@ PROCEDURE regista_participacao(
     posicao_in IN participa.posicao%TYPE);
 
 
--- Elimina um registo de participação           PERGUNTA 4
+-- Elimina um registo de participaÃ§Ã£o           PERGUNTA 4
 PROCEDURE remove_participacao(
     atleta_in IN participa.atleta%TYPE,
     jogos_in IN participa.jogos%TYPE,
@@ -50,7 +43,7 @@ PROCEDURE remove_atleta(
     numero_in IN atleta.numero%TYPE);
 
 
--- Dá o return das medalhas do atleta           PERGUNTA 7
+-- DÃ¡ o return das medalhas do atleta           PERGUNTA 7
 FUNCTION lista_medalhas(
     atleta_in IN atleta.numero%TYPE)
     RETURN SYS_REFCURSOR;
