@@ -4,6 +4,13 @@ body{
     font-family: sans-serif;
     margin-top: 0.5vw;
 }
+ul {
+    line-height: 1em;
+    padding: 0;
+}
+li{
+    margin-bottom: 0.7rem;
+}
 .grande{
     margin: 0 auto;
 }
@@ -61,13 +68,19 @@ h3{
     grid-area: texto;
     margin: 0;
     padding: 10px;
+
 }
 .infoTexto > p{
-    margin: 10px 0px;
+    margin: 0;
 }
+.infoTexto > ul{
+    margin: 0;
+    padding-left: 20px;
+}
+
 .textoextracurriculares > ul{
     margin: 0;
-    padding: 15px;
+    padding: 0px 0px 15px 15px;
 }
 a {
     color: inherit;
@@ -77,13 +90,6 @@ a {
 }
 a:hover{
     color: red;
-}
-li{
-    margin-bottom: 0.7rem;
-}
-ul {
-    padding: 30px;
-    line-height: 1em;
 }
 .introPagina{
     width: auto;
@@ -115,7 +121,7 @@ strong{
     margin: 0;
 }
 .resto > ul{
-    padding-top: 0;
+    padding: 0 0 20px 20px;
 }
 .navbar {
     display: flex;
