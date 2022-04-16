@@ -1,8 +1,16 @@
+
+
+
 body{
     background-image: url('pexels-scott-webb-593158.jpg');
     object-fit: fill;
-    font-family: sans-serif;
-    margin-top: 0.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.atual{
+    color: white;
+    background-color: #555;
+    border-radius: 5px;
 }
 ul {
     line-height: 1em;
@@ -12,7 +20,7 @@ li{
     margin-bottom: 0.7rem;
 }
 .grande{
-    margin: 0 auto;
+    margin: 0 10px;
 }
 .titleMainMenu{
     color: black;
@@ -47,7 +55,7 @@ h3{
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     border-top-right-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     text-align: left;
 }
 .infoTitulo > p{
@@ -119,12 +127,13 @@ strong{
 }
 .navbar {
     display: flex;
-    flex-direction: column;
-    position: relative;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: white;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
 }
 
 .brand-title {
