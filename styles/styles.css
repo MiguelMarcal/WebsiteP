@@ -21,6 +21,7 @@ li{
 }
 .grande{
     margin: 0 10px;
+    padding: 0 10vw;
 }
 .titleMainMenu{
     color: black;
@@ -181,5 +182,15 @@ strong{
 
     iframe{
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    iframe{
+        display: none;
+    }
+    .grande{
+        padding: 0;
     }
 }
