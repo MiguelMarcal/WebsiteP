@@ -66,3 +66,13 @@ li{
         margin-bottom: 0;
     }
 }
+
+
+/* Remover a ScrollBar devido a criar problemas no layout da pagina */
+body::-webkit-scrollbar {
+    width: 0px;
+}
+body::-moz-scrollbar {
+    width: 0px;
+  }
+  
